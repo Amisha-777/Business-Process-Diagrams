@@ -28,9 +28,10 @@ This project presents a comprehensive Business Process Model and Notation (BPMN)
     -   Validated applications are forwarded to the Registrar's Office and the Financial Aid Office. #ApprovalProcess
     -   Financial aid applications and tuition payments are processed, with discrepancies addressed through student inquiries. #FinancialAid
 5.  **Acceptance Letter Generation**:
-    -   Upon successful review and approval, an acceptance letter is generated, emailed to the student, and copies are sent to the Registrar's and Financial Aid Offices. #AcceptanceLetter
+    -   Upon successful review and approval, an acceptance letter is generated, emailed to the student, and copies are sent to the Registrar's            and Financial Aid Offices. #AcceptanceLetter
 6.  **Enrollment Confirmation**:
-    -   Students confirm enrollment by submitting payment to the Financial Aid Office after receiving the acceptance letter. #EnrollmentConfirmation
+    -   After receiving the acceptance letter, the student must confirm their enrollment by submitting payment to the Financial Aid Office.
+    -   The system checks for any issues with the enrollment details. If discrepancies arise, they are corrected, and the Admissions Department           is notified. #EnrollmentConfirmation
     -   The system verifies enrollment details; discrepancies are corrected, and the Admissions Department is notified. #EnrollmentVerification
 7.  **Final Enrollment**:
     -   Once all details are verified and payment is received, an enrollment confirmation is generated and sent to the student. #FinalEnrollment
