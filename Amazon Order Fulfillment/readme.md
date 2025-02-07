@@ -1,15 +1,19 @@
 # Amazon Order Fulfillment BPMN Diagram
 
-## Project Description
-A Business Process Model and Notation (BPMN) 2.0 diagram modeling Amazon's order fulfillment process, covering both Fulfilled-by-Amazon (FBA) and Fulfilled-by-Merchant (FBM) workflows. Created using Microsoft Visio.
+## Requirements
+Using Microsoft Visio, create a BPMN diagram for ordering product from Amazon Canada. To help you with the process, the order fulfillment process overview is shared below.
+
+## Amazon Order Fulfillment Overview:
+Once the customer places an order on amazon website, the order can be fulfilled (shipped) using either of the 2 different methods – Fulfilled by Amazon (FBA) or Fulfilled by Merchant (FBM). In FBA, the order is processed, packed, shipped, and delivered through Amazon Warehouse. In FBM, the order is processed, packed, shipped, and delivered by the Merchant. Hence, in FBM, Amazon only provides the digital infrastructure for receiving the order request, sending the notifications, and collecting the online payment. If at any point in the process, you are not sure of the step then please assume the step. This question is to check your understanding of BPMN diagramming and not to verify the real fulfillment process.
+
 
 ## Key Features
 - 3 Pools: Customer, Amazon, Merchant
-- 4 Swimlanes across pools
+- 4 Different Swimlanes: Customer, Order Processing (Amazon), Amazon FBA, Merchant Fulfillment
 - Dual process flows (FBA & FBM)
 - 20+ Flow Objects (Tasks, Gateways, Events)
 - Multiple gateway types (Exclusive, Parallel, Event-Based)
-- Task types (User, Service, Send/Receive)
+- Task types (User Task, Service Task, Send/Receive: Notification)
 
 The BPMN diagram illustrates the end-to-end process of ordering a product from Amazon including:
 - Customer actions for placing an order.
@@ -31,24 +35,6 @@ The BPMN diagram illustrates the end-to-end process of ordering a product from A
    | Exclusive    | Stock Check | Item availability[1] |
    | Parallel     | Payment Processing | Multiple payment methods |
    | Event-Based  | Shipping Update | Tracking notifications |
-
-
-## Conditions for the Project
-The diagram adheres to the following conditions:
-1. **Pools & Swimlanes:**
-   - At least 3 pools: Customer, Amazon, Merchant.
-   - At least 4 swimlanes across these pools.
-2. **Process Coverage:**
-   - Both FBA and FBM fulfillment processes are included.
-3. **Flow Objects:**
-   - At least 20 different flow objects, including:
-     - Tasks/Activities
-     - Gateways
-     - Events
-4. **Gateways & Activity Types:**
-   - At least 3 different types of Gateways.
-   - At least 3 different types of Activity/Task.
-
 
 ## Files in this Repository
 - `amazon_order_fulfillment.vsdx` – The original Visio BPMN diagram file.
