@@ -33,7 +33,7 @@ This project presents a comprehensive Business Process Model and Notation (BPMN)
 
 ### **📂 Files**
 - `student_enrollment_process.vsdx` → Visio BPMN diagram
-- `enrollment.pdf` → PDF for quick preview
+- `enrollment.png` → PDF for quick preview
 - `Case Study.pdf` → Project Scenario
 - `README.md` → Documentation
 
