@@ -38,7 +38,7 @@ The BPMN diagram illustrates the end-to-end process of ordering a product from A
    | Exclusive (X)    | Done Shopping? (Customer)| If "Yes," proceed to checkout; if "No," continue shopping.|
    | Exclusive (X)     | Is the order valid? (Order Processing) |If "Yes," accept the order; if "No," cancel and notify the customer. |
    | Inclusive (+)  | Who fulfills the order? (Order Processing) | The order can be fulfilled either by Amazon or the merchant |
-  | Exclusive (X)     | Delivery Confirmation (Customer) |If delivered, the customer can provide feedback. |
+   | Exclusive (X)     | Delivery Confirmation (Customer) |If delivered, the customer can provide feedback. |
 
 ## 📂Files in this Repository
 - `amazon_order_fulfillment.vsdx` – The original Visio BPMN diagram file.
