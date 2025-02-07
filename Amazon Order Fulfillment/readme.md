@@ -18,7 +18,6 @@ The BPMN diagram illustrates the end-to-end process of ordering a product from A
 - Fulfillment by Merchant (FBM) where the merchant is responsible for packing and shipping.
 
 ## Diagram Specifications
-Core Components:
 1. **Order Initiation:**
 - Customer selects product and places order
 - Payment processing
