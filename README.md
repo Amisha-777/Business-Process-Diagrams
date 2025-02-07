@@ -45,7 +45,7 @@ A **BPMN 2.0 diagram** representing the **student enrollment process** at the **
 
 ### **📂 Files**
 - `studen_enrollment_process.vsdx` → Visio BPMN diagram
-- `enrollment.pdf` → PDF for quick view
+- `enrollment.png` → PDF for quick view
 - `Case Study.pdf` → Project Scenario
 - `README.md` → Documentation
 
