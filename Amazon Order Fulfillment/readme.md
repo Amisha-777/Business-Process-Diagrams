@@ -16,10 +16,13 @@ Once the customer places an order on amazon website, the order can be fulfilled 
 - Task types (User Task, Service Task, Send/Receive: Notification)
 
 The BPMN diagram illustrates the end-to-end process of ordering a product from Amazon including:
-- Customer actions for placing an order.
-- Amazon's order processing workflow.
-- Fulfillment by Amazon (FBA) where Amazon handles packing and shipping.
-- Fulfillment by Merchant (FBM) where the merchant is responsible for packing and shipping.
+1. Customer selects product and places order
+2. Order processing and stock check
+3. Payment processing
+4. Order confirmation
+5. Fulfilment through either FBA or FBM
+6. Shipping and delivery
+7. Order status updates
 
 ## Diagram Specifications
 1. **Order Initiation:**
