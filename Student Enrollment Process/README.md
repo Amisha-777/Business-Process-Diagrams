@@ -32,7 +32,7 @@ This project presents a comprehensive Business Process Model and Notation (BPMN)
     -   The student is officially enrolled, and all records are updated in the university's information system. #OfficialEnrollment
 
 ### **📂 Files**
-- `studen_enrollment_process.vsdx` → Visio BPMN diagram
+- `student_enrollment_process.vsdx` → Visio BPMN diagram
 - `enrollment.pdf` → PDF for quick preview
 - `Case Study.pdf` → Project Scenario
 - `README.md` → Documentation
