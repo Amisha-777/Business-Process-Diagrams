@@ -31,16 +31,17 @@ This project presents a comprehensive Business Process Model and Notation (BPMN)
     -   Once all details are verified and payment is received, an enrollment confirmation is generated and sent to the student. #FinalEnrollment
     -   The student is officially enrolled, and all records are updated in the university's information system. #OfficialEnrollment
 
+### **📂 Files**
+- `studen_enrollment_process.vsdx` → Visio BPMN diagram
+- `enrollment.pdf` → PDF for quick preview
+- `Case Study.pdf` → Project Scenario
+- `README.md` → Documentation
 
-## 📂Files in this Repository
-- `amazon_order_fulfillment.vsdx` – The original Visio BPMN diagram file.
-- `image.png` – Screenshot of the BPMN diagram.
-- `README.md` – Documentation of the project.
 
 ## 📥How to View the BPMN Diagram
 To view or edit the BPMN diagram:
 1. Download the `amazon_order_fulfillment.vsdx` file.
 2. Open it using Microsoft Visio.
 
-For a quick preview, refer to `image.png`.
+
 
