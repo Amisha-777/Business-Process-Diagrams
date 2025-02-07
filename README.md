@@ -44,7 +44,8 @@ A **BPMN 2.0 diagram** representing the **student enrollment process** at the **
 - **Error Handling & Loops:** Document resubmission, payment adjustments.
 
 ### **📂 Files**
-- `university_enrollment.vsdx` → Visio BPMN diagram
-- `image_enrollment.png` → Process screenshot
+- `studen_enrollment_process.vsdx` → Visio BPMN diagram
+- `enrollment.pdf` → PDF for quick view
+- `Case Study.pdf` → Project Scenario
 - `README.md` → Documentation
 
