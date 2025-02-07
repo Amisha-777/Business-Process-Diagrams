@@ -1,6 +1,6 @@
-# University of Nanaimo Student Enrollment Process
+# Student Enrollment Process in University
 
-## Project Overview
+## 📌Project Overview
 
 This project presents a comprehensive Business Process Model and Notation (BPMN) diagram for the student enrollment process at the University of Nanaimo. The model illustrates the complex interactions between various departments and the applicant, providing a clear visualization of the entire enrollment journey.
 
@@ -16,7 +16,7 @@ This project presents a comprehensive Business Process Model and Notation (BPMN)
 -   Illustration of decision points and parallel processes
 -   Inclusion of potential loops and error-handling procedures
 
-## Process Highlights
+## 🔥Process Highlights
 
 1.  **Application Initiation**: Students fill out the application form and gather all required documents. #ApplicationInitiation
 2.  **Application Submission**: Completed applications are submitted either online or in person. #ApplicationSubmission
