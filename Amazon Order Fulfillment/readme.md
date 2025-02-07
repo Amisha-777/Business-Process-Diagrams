@@ -26,18 +26,19 @@ The BPMN diagram illustrates the end-to-end process of ordering a product from A
 
 ## Diagram Specifications
 1. **Order Initiation:**
-- Customer selects product and places order
-- Payment processing
-- Order confirmation
+- The process begins when a customer chooses a product from the Amazon website.
+- The customer adds the item to the shopping cart and proceeds to checkout if they are done shopping.
+- Shipping address is selected, and payment is made to confirm the order.
 2. **Fulfillment Paths:**
 - FBA Path:Customer → Amazon Warehouse (Pick/Pack) → Amazon Shipping → Delivery
 - FBM Path:Customer → Merchant System (Pick/Pack) → Merchant Shipping → Delivery
 3. **Key Decision Points:**
    | Gateway Type | Location | Decision Criteria |
    |--------------|----------|-------------------|
-   | Exclusive    | Stock Check | Item availability[1] |
-   | Parallel     | Payment Processing | Multiple payment methods |
-   | Event-Based  | Shipping Update | Tracking notifications |
+   | Exclusive (X)    | Done Shopping? (Customer)| If "Yes," proceed to checkout; if "No," continue shopping.|
+   | Exclusive (X)     | Is the order valid? (Order Processing) |If "Yes," accept the order; if "No," cancel and notify the customer. |
+   | Inclusive (+)  | Who fulfills the order? (Order Processing) | The order can be fulfilled either by Amazon or the merchant |
+  | Exclusive (X)     | Delivery Confirmation (Customer) |If delivered, the customer can provide feedback. |
 
 ## 📂Files in this Repository
 - `amazon_order_fulfillment.vsdx` – The original Visio BPMN diagram file.
