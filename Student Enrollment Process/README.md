@@ -4,20 +4,14 @@
 
 This project presents a comprehensive Business Process Model and Notation (BPMN) diagram for the student enrollment process at the University of Nanaimo. The model illustrates the complex interactions between various departments and the applicant, providing a clear visualization of the entire enrollment journey.
 
-## Contents
-
-1.  BPMN Diagram
-2.  Process Description
-
-## Key Features
-
--   Detailed visualization of the entire student enrollment process
--   Clear representation of interactions between different university departments
--   Illustration of decision points and parallel processes
--   Inclusion of potential loops and error-handling procedures
+## Process Model Key Elements
+-   Start and end events
+-   Activities performed by students and university departments
+-   Decision points and gateways
+-   Parallel processes
+-   Loops for document updates and payment resolution
 
 ## 🔥Process Highlights
-
 1.  **Application Initiation**: Students fill out the application form and gather all required documents. #ApplicationInitiation
 2.  **Application Submission**: Completed applications are submitted either online or in person. #ApplicationSubmission
 3.  **Document Review and Validation**:
@@ -37,11 +31,16 @@ This project presents a comprehensive Business Process Model and Notation (BPMN)
     -   Once all details are verified and payment is received, an enrollment confirmation is generated and sent to the student. #FinalEnrollment
     -   The student is officially enrolled, and all records are updated in the university's information system. #OfficialEnrollment
 
-## Process Model Key Elements
 
--   Start and end events
--   Activities performed by students and university departments
--   Decision points and gateways
--   Parallel processes
--   Loops for document updates and payment resolution
+## 📂Files in this Repository
+- `amazon_order_fulfillment.vsdx` – The original Visio BPMN diagram file.
+- `image.png` – Screenshot of the BPMN diagram.
+- `README.md` – Documentation of the project.
+
+## 📥How to View the BPMN Diagram
+To view or edit the BPMN diagram:
+1. Download the `amazon_order_fulfillment.vsdx` file.
+2. Open it using Microsoft Visio.
+
+For a quick preview, refer to `image.png`.
 
