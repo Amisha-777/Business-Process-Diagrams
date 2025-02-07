@@ -57,3 +57,10 @@ The diagram adheres to the following conditions:
 - `image.png` – Screenshot of the BPMN diagram.
 - `README.md` – Documentation of the project.
 
+## How to View the BPMN Diagram
+To view or edit the BPMN diagram:
+1. Download the `amazon_order_fulfillment.vsdx` file.
+2. Open it using Microsoft Visio.
+
+For a quick preview, refer to `image.png`.
+
