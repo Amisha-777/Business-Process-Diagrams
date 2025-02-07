@@ -35,7 +35,7 @@ Core Components:
    | Event-Based  | Shipping Update | Tracking notifications |
 
 
-## Conditions as per Case Study
+## Conditions for the Project
 The diagram adheres to the following conditions:
 1. **Pools & Swimlanes:**
    - At least 3 pools: Customer, Amazon, Merchant.
