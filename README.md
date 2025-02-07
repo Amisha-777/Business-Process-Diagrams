@@ -28,7 +28,7 @@ A BPMN 2.0 diagram modeling the **Amazon order fulfillment process**, covering b
 ### **📂 Files**
 - `amazon_order_fulfillment.vsdx` → Visio BPMN diagram
 - `image.png` → Process screenshot
-- `README.md` → Documentation
+- `readme.md` → Documentation
 
 ---
 
