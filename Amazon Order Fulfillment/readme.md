@@ -1,7 +1,6 @@
 # Amazon Order Fulfillment BPMN Diagram
 
 ## Project Description
-
 A Business Process Model and Notation (BPMN) 2.0 diagram modeling Amazon's order fulfillment process, covering both Fulfilled-by-Amazon (FBA) and Fulfilled-by-Merchant (FBM) workflows. Created using Microsoft Visio.
 
 ## Key Features
