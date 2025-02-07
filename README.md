@@ -17,7 +17,7 @@ This repository contains **Business Process Model and Notation (BPMN) 2.0 diagra
 ### **Project Overview**
 A BPMN 2.0 diagram modeling the **Amazon order fulfillment process**, covering both **Fulfilled-by-Amazon (FBA)** and **Fulfilled-by-Merchant (FBM)** workflows.
 
-### **📌 Key Features**
+### **Key Features**
 - **Pools:** Customer, Amazon, Merchant
 - **Swimlanes:** Customer, Order Processing, Amazon FBA, Merchant Fulfillment
 - **Gateways:** Exclusive (XOR), Parallel (AND), Event-Based
@@ -32,11 +32,11 @@ A BPMN 2.0 diagram modeling the **Amazon order fulfillment process**, covering b
 
 ---
 
-## 📦 **2. University of Nanaimo Student Enrollment BPMN**
-### **🔹 Project Overview**
+## **2. University of Nanaimo Student Enrollment BPMN**
+### **Project Overview**
 A **BPMN 2.0 diagram** representing the **student enrollment process** at the **University of Nanaimo**, detailing interactions between students and different university departments.
 
-### **📌 Key Features**
+### **Key Features**
 - **Start to Finish Workflow:** From application submission to final enrollment.
 - **Departmental Interaction:** Registrar’s Office, Financial Aid, Academic Review.
 - **Gateways & Decisions:** Application review, document validation, financial aid processing.
