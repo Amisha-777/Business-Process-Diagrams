@@ -1,6 +1,6 @@
-# Amazon Order Fulfillment BPMN Diagram
+# 📦Amazon Order Fulfillment BPMN Diagram
 
-## Requirements
+## 📌Requirements
 Using Microsoft Visio, create a BPMN diagram for ordering product from Amazon Canada. To help you with the process, the order fulfillment process overview is shared below.
 
 ## Amazon Order Fulfillment Overview:
@@ -36,12 +36,12 @@ The BPMN diagram illustrates the end-to-end process of ordering a product from A
    | Parallel     | Payment Processing | Multiple payment methods |
    | Event-Based  | Shipping Update | Tracking notifications |
 
-## Files in this Repository
+## 📂Files in this Repository
 - `amazon_order_fulfillment.vsdx` – The original Visio BPMN diagram file.
 - `image.png` – Screenshot of the BPMN diagram.
 - `README.md` – Documentation of the project.
 
-## How to View the BPMN Diagram
+## 📥How to View the BPMN Diagram
 To view or edit the BPMN diagram:
 1. Download the `amazon_order_fulfillment.vsdx` file.
 2. Open it using Microsoft Visio.
